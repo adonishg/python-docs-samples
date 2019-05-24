@@ -35,7 +35,7 @@ def synthesize_text(text):
     # Note: the voice can also be specified by name.
     # Names of voices can be retrieved with client.list_voices().
     voice = texttospeech.types.VoiceSelectionParams(
-        language_code='en-US',
+        language_code='ko-KR',
         ssml_gender=texttospeech.enums.SsmlVoiceGender.FEMALE)
 
     audio_config = texttospeech.types.AudioConfig(
